@@ -66,7 +66,7 @@ a {
     flex-direction: column;
     position: relative;
     background: #e6f0ff;
-    height: 100vh;
+    height: calc(100vh - 90px);
 }
 
 /* NAVBAR */
@@ -101,6 +101,10 @@ a {
     font-weight: 500;
     font-size: 1.4rem;
     color: var(--primary-color);
+}
+
+.navbar .action-link:hover {
+    text-decoration: underline;
 }
 
 .navbar .btn-action {
